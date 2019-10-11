@@ -1,4 +1,4 @@
-# JS
+# fantastic-fiesta-typescript
 This repo contains all the javascript stuff I do during classes
 
 ## Exercise 2
@@ -37,3 +37,16 @@ user	0m0.002s
 sys	0m0.003s
 ```
 
+**UPDATE FINAL:**
+After some magic touches from my cplusplus-sensei:
+```
+$ time ./exercise
+matrix:
+[0, ]
+[1, 2, 3, 0, 8, 7, ]
+[1, 1, 1, 0, 1, 1, ]
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.003s
+```
