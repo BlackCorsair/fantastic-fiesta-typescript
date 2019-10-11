@@ -1,5 +1,14 @@
 #include <vector>
 #include <iostream>
+#include <algorithm>
+
+/*
+    stealed code from https://stackoverflow.com/questions/2378856/sorting-vectors-based-on-size
+*/
+
+bool less_vectors(const std::vector<int>& a,const std::vector<int>& b) {
+   return a.size() < b.size();
+}
 
 const std::vector<std::vector<int> > formatVector(std::vector<std::vector<int> > list)
 {
@@ -14,6 +23,7 @@ const std::vector<std::vector<int> > formatVector(std::vector<std::vector<int> >
                         
         }
     }
+    std::sort(list.begin(), list.end(), less_vectors);
     return list;
 }
 

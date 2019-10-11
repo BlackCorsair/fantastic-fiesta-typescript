@@ -22,3 +22,18 @@ sys	0m0.087s
 ```
 
 Note that I'm too lazy to implement a sorting algorithm in c++ but... maybe 0.01 extra time?
+
+**UPDATE:**
+Now that I've ~~stolen~~ added the sorting algorithm, the new time for the c++ code is:
+```
+$ time ./exercise
+matrix:
+[0, ]
+[1, 2, 3, 0, 8, 7, ]
+[1, 1, 1, 0, 1, 1, ]
+
+real	0m0.008s
+user	0m0.002s
+sys	0m0.003s
+```
+
